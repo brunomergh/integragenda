@@ -34,6 +34,5 @@ function UsuarioConvidado(){
 
 function salvar(){
 	alert("Salvo com sucesso");
-	window.location = "selecaoSala.html";
 	
 }
