@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 	<head>
 		<meta charset="utf-8">
 		<title>Minha Agenda</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/integragendaCSS.css"/>
 		<script type="text/javascript" src="js/validador.js"></script>
-		<script>
-			function deleteRow(i){
-				document.getElementById('myTable').deleteRow(i)
-			}
-		</script>
 	</head>
 	<body>
 	<div class= "background">
 		<div class="cabecalho">
 			<form>
-			<button class="buttonCabecalhoLogo vermelho" formaction="selecaoSala.html"><img class="selecaoSalasLogo" src="img/menu-options.png"></button>
+			<button class="buttonCabecalhoLogo vermelho" formaction="selecaoSala.html"><img class="selecaoSalasLogo" src="img/menu-options.png" alt="Logo"></button>
 			<div class="dropdown floatRight">
 				<button class="buttonCabecalho vermelho floatRight"><i class="avatar"></i>Usuário</button>
 				<div class="dropdown-content floatRight">
@@ -29,7 +24,7 @@
 			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Minhas Salas</button>
         </form>		
 		</div>
-		<table id="myTable" class="table">
+		<table id="tabela" class="table">
 			<tr class="tr">
 				<th class="th">Horário Início</th>
 				<th class="th">Horário Fim</th>
